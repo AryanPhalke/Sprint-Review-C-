@@ -76,7 +76,7 @@ void Member::updateProfile(const std::string& username) {
     // Open user data file
     std::ifstream infile("UserData.csv");
 
-    // Check if file opened successfully
+    // Check if file opened the successfully
     if (!infile) {
         cout << "Error: Could not Open UserData.csv\n";
         return;
